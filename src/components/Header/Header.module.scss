@@ -1,0 +1,22 @@
+.Wrapper {
+    width: 100%;
+
+    .Container {
+        width: 990px;
+        height: 100%;
+        background: #d6be17;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .Logo {
+            max-width: 200px;
+            padding: 20px;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
